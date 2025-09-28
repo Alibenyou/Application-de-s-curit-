@@ -1,0 +1,35 @@
+# ma_surveillance_app/pubspec.yaml
+
+name: ma_surveillance_app
+description: A new Flutter project for security.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Utilisez la version de SDK Flutter que vous avez
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Packages pour les fonctionnalités natives
+  camera: ^0.10.5+9 # Pour l'accès à la caméra
+  geolocator: ^11.0.0 # Pour la localisation
+  #mailer: 6.0.1  Pour l'envoi d'emails directs (SMTP)
+  mailer: ^6.1.0 # <-- AJOUTEZ CETTE LIGNE (vérifiez la dernière version sur pub.dev)
+  path_provider: ^2.0.15 # Pour trouver des chemins de fichiers temporaires
+  path: ^1.8.3 # Pour manipuler les chemins de fichiers
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
