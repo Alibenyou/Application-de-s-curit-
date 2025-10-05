@@ -1,6 +1,8 @@
 # ma_surveillance_app
 
 A new Flutter project.
+À propos
+Application qui fait une capture de photo frontale et l'envoie par e-mail lors de tentative de mot de passe rater
 
 ## Getting Started
 
